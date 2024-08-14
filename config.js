@@ -41,7 +41,7 @@ global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "recording";
+global.waPresence = process.env.WAPRESENCE || "typing";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -65,7 +65,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "WASO",
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "SHADOW-MD😂",
-  ownername: process.env.OWNER_NAME || "WASI",
+  ownername: process.env.OWNER_NAME || "SHADOW😁",
   errorChat: process.env.ERROR_CHAT || "254742215053",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
